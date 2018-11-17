@@ -24,7 +24,7 @@
           header("Location: stats.php?player=".$uuid."&name=".$name);
           exit;
         } else {
-          echo '<p style="color: red;">There are no statistics for this player</p>';
+          echo '<p style="color: red;">There are no statistics for this player.<br>Or the player hasn&#39;t joined the server.</p>';
         }
       }
        ?>
